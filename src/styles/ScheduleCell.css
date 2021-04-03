@@ -1,0 +1,42 @@
+.schedule-cell{
+display: flex;
+border: 1px solid #D3E2E5;
+border-radius: 20px;
+margin-bottom: 10px;
+align-items: center;
+}
+
+.schedule-cell img{
+  border-radius: 20px;
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.schedule-cell section{
+  flex-direction: column;
+}
+
+.schedule-cell-text {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+
+}
+
+.schedule-cell-text h4{
+    font-size: 24px;
+    line-height: 34px;
+    color: #5C8599;
+    font-weight: 700;
+}
+.current-program-cell {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.current-alert{
+  background-color: #ef6565;
+  border-radius: 20px;
+  height: 100%;
+}

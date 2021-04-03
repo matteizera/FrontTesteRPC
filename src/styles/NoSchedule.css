@@ -1,0 +1,14 @@
+.no-schedule-container  {
+   border: solid 1px #d56565;
+   border-radius: 20px;
+   padding: 20px 0;
+   margin-top: 20px;
+
+}
+
+.no-schedule-container span {
+  font-size: 32px;
+  line-height: 34px;
+  color: #d56565;
+  font-weight: 700;
+}
